@@ -1,25 +1,23 @@
-{
-  "songs": [
-    {
-      "name": "Con cáo nhỏ",
-      "img": "http://localhost:5500/dongcung.jpg",
-      "author": "Duy Ngô Nhĩ",
-      "source": "http://localhost:5500/concaonho.mp3",
-      "id": 1
-    },
-    {
-      "name": "Lạnh Lẽo",
-      "img": "http://localhost:5500/tamsinh.jpg",
-      "author": "Hoắc Kiến Hoa",
-      "source": "http://localhost:5500/lanhleo.mp3",
-      "id": 2
-    },
-    {
-      "name": "See Tình",
-      "img": "http://localhost:5500/SeeTinh.jpg",
-      "author": "Hương Ly cover",
-      "source": "http://localhost:5500/SeeTinh.mp3",
-      "id": 3
-    }
-  ]
-}
+[
+  {
+    "name": "Con cáo nhỏ",
+    "img": "http://localhost:5500/dongcung.jpg",
+    "author": "Duy Ngô Nhĩ",
+    "source": "http://localhost:5500/concaonho.mp3",
+    "id": 1
+  },
+  {
+    "name": "Lạnh Lẽo",
+    "img": "http://localhost:5500/tamsinh.jpg",
+    "author": "Hoắc Kiến Hoa",
+    "source": "http://localhost:5500/lanhleo.mp3",
+    "id": 2
+  },
+  {
+    "name": "See Tình",
+    "img": "http://localhost:5500/SeeTinh.jpg",
+    "author": "Hương Ly cover",
+    "source": "http://localhost:5500/SeeTinh.mp3",
+    "id": 3
+  }
+]

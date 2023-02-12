@@ -4,7 +4,7 @@ var pauseBtn = document.querySelector('.pauseBtn');
 var progress = document.getElementById('progress');
 var imageSong = document.querySelector('#imageSong');
 var rotateCD;
-var songsApi = 'https://localhost:3000/songs';
+var songsApi = 'https://yangthanhthao.github.io/music-player/db.json';
 var playlist = document.querySelector('.playlist');
 var nextSong = document.querySelector('.songAfter');
 var previousSong = document.querySelector('.songBefore');
