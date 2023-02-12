@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2d2fc;
+}
+
+.dashboard .control {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.dashboard .control > div {
+    padding: 5px;
+    width: 45px;
+}
+
+#imageSong {
+    width: 270px;
+    border-radius: 50%;
+    /* animation: rotate 10s linear infinite; */
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.pauseBtn {
+    display: none;
+}
+
+.fa-play:hover {
+    cursor: pointer;
+}
+
+.fa-pause:hover {
+    cursor: pointer;
+}
+
+#progress {
+    width: 65%;
+    padding: 10px 0;
+}
+
+#progress:hover {
+    cursor: pointer;
+}
+
+.fa-solid {
+    font-size: 30px;
+    color: purple;
+}
+
+.dashboard > p {
+    font-size: 30px;
+    font-family: 'FontAwesome';
+    color: purple;
+    padding: 25px 25px 0;
+}
+
+.dashboard > h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    font-size: 30px;
+    opacity: 1;
+    color: #aa00f6;
+}
+
+.playlist {
+    display: flex;
+    margin: 0 auto;
+    width: 35%;
+    flex-direction: column;
+}
+
+.song1 {
+    display: flex;
+    background-color: #e4b1e9;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.song1 > img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.contentSong {
+    margin-left: 30px;
+}
+.contentSong > p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contentSong > h4 {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.dashboard {
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 15px;
+    width: 35%;
+    background-color: #eba5f3;
+    /* position: fixed; */
+}
+
+.dashboard > h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+    color: #e700a07d;
+}

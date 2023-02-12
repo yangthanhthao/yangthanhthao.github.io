@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- <link rel="stylesheet" href="all.min.css"> -->
+    <link rel="stylesheet" href="CodeMusicPlayer.css">
+</head>
+
+<body>
+    <div class="dashboard">
+        <p>Now playing</p>
+        <h3 id="title">Đông Cung</h3>
+
+        <div class="imgSong">
+            <img id="imageSong" src="dongcung.jpg">
+        </div>
+
+        <div class="control">
+
+            <div class="songBefore">
+                <i class="fa-solid fa-backward-step"></i>
+            </div>
+
+            <div class="pauseBtn">
+                <i class="fa-solid fa-pause"></i>
+            </div>
+
+            <div class="playBtn">
+                <i class="fa-solid fa-play"></i>
+            </div>
+
+            <div class="songAfter">
+                <i class="fa-solid fa-forward-step"></i>
+            </div>
+
+        </div>
+
+        <input id="progress" type="range" value="0" step="1" min="0" max="100">
+
+        <audio loop id="audio"></audio>
+    </div>
+
+    <div class="playlist">
+        <!-- <div class="song1">
+            <img src="tamsinh.jpg">
+            <div class="contentSong">
+                <h4>Tam sinh tam thế thập lý đào hoa</h4>
+                <p>K-Twittie</p>
+            </div>
+        </div>
+
+        <div class="song1">
+            <img src="tamsinh.jpg">
+            <div class="contentSong">
+                <h4>Tam sinh tam thế </h4>
+                <p>K-Twittie</p>
+            </div>
+        </div> -->
+    </div>
+
+    <script src="CodeMusicPlayer.js"></script>
+</body>
+
+</html>
